@@ -11,7 +11,7 @@ const Body = () => {
     //eslint
   }, [dispatch]);
   return (
-    <div className="grid grid-flow-col">
+    <div className="grid grid-flow-col h-full w-full">
       <Sidebar />
       <Outlet />{" "}
     </div>
