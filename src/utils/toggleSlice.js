@@ -3,7 +3,7 @@ const { createSlice } = require("@reduxjs/toolkit");
 const toggleSlice = createSlice({
   name: "toggle",
   initialState: {
-    isOpen: false,
+    isOpen: true,
   },
   reducers: {
     toggle: (state) => {
