@@ -39,6 +39,7 @@ const Head = () => {
       })
     );
   };
+
   return (
     <div className="grid grid-flow-col shadow-md p-4  shadow-black">
       <section className="flex items-center gap-3 col-span-2 ">
