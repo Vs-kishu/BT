@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* *{
+  border: 1px solid red !important;
+} */
+.hidescroll {
+  overflow: scroll;
+  /* or 'auto' */
+  scrollbar-width: none;
+  /* For Firefox */
+  -ms-overflow-style: none;
+  /* For Internet Explorer/Edge */
+}
+
+.hidescroll::-webkit-scrollbar {
+  display: none;
+  /* For Chrome, Safari, and Opera */
+}
