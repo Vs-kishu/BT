@@ -1,7 +1,7 @@
 import React from "react";
 
 export const VideoCard = ({ videos }) => {
-  const { snippet, statistics } = videos;
+  const { snippet } = videos;
   const { thumbnails, channelTitle } = snippet;
   // const { likeCount, viewCount } = statistics;
   return (

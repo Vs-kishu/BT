@@ -1,19 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Button from "./Button";
-import { SEARCH_API, VIDEO_CATEGORY } from "../utils/constants";
-import { json } from "react-router-dom";
-const btnList = [
-  "All",
-  "Music",
-  "Video",
-  "Javascript",
-  "Gaming",
-  "Bollywood Music",
-  "Indian Pop Music",
-  "Comedy",
-  "Smartphones",
-  "Cars",
-];
+import { VIDEO_CATEGORY } from "../utils/constants";
+
 const ButtonList = () => {
   const [videoCategories, setvideoCategories] = useState([]);
   useEffect(() => {
