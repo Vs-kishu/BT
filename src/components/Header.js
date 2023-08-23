@@ -5,7 +5,7 @@ import { toggleNavState } from "../utilities/navSlice";
 import { addQuery } from "../utilities/searchSlice";
 import useFetch from "../utilities/useFetch";
 import { SearchSVG } from "../utilities/SVG";
-import logo from "../assets/bt.png";
+import logo from "../assets/BT.png";
 import lightBtn from "../assets/light.svg";
 import darkBtn from "../assets/dark.svg";
 
