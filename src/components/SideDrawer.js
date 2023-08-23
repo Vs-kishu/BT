@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { closeNav, toggleNavState } from "../utilities/navSlice";
-import logo from "../assets/BT.png";
+import logo from "../assets/bt.png";
 
 const SideDrawer = ({ theme }) => {
   const isNavOpen = useSelector((store) => store.navState.isOpen);
